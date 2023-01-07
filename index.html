@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Weather Dashboard</title>
 </head>
+
 <body>
-    
+    <header>Weather Dashboard</header>
+    <main>
+        <section id="searchSection">
+            <h1>Search</h1>
+            <input type="text" class="searchArea" name="searchCity" placeholder="Phoenix" />
+            <button class="searchBtn">Search</button>
+        </section>
+        <section id="displayWeather">
+            <div class="presentDay">
+                <h1 class="city" id="cityDisplay">Phoenix</h1>
+                <div class="currentDayInfo">
+                    <p class="temp">Temp</p>
+                    <p class="wind">WindSpeed</p>
+                    <p class="humidity">Humidity</p>
+                </div>
+            </div>
+            <div class="forecast">
+                <div class="forecastCard" id="day1">
+                    <h2>Date</h2>
+                    <p>Temp</p>
+                    <div>Weather Icon</div>
+                    <p>Humidity</p>
+                    <p>Wind Speed</p>
+                </div>
+                <div class="forecastCard" id="day2">
+                    <h2>Date</h2>
+                    <p>Temp</p>
+                    <div>Weather Icon</div>
+                    <p>Humidity</p>
+                    <p>Wind Speed</p>
+                </div>
+                <div class="forecastCard" id="day3">
+                    <h2>Date</h2>
+                    <p>Temp</p>
+                    <div>Weather Icon</div>
+                    <p>Humidity</p>
+                    <p>Wind Speed</p>
+                </div>
+                <div class="forecastCard" id="day4">
+                    <h2>Date</h2>
+                    <p>Temp</p>
+                    <div>Weather Icon</div>
+                    <p>Humidity</p>
+                    <p>Wind Speed</p>
+                </div>
+                <div class="forecastCard" id="day5">
+                    <h2>Date</h2>
+                    <p>Temp</p>
+                    <div>Weather Icon</div>
+                    <p>Humidity</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,51 @@
+
+header {
+    text-align: end;
+    font-weight: 900;
+    font-size: 50px;
+    background-image: linear-gradient(to right, turquoise,brown);
+    padding: 20px ;
+}
+
+main {
+    display: flex;
+    padding: 0px 20px;
+    margin: 10px 0px;
+    background-color: turquoise;
+    padding: 10px;
+}
+
+#searchSection {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 10px;
+}
+
+.searchBtn {
+    margin-top: 5px;
+}
+
+#displayWeather {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 10px;
+}
+
+.currentDayInfo {
+    border-style: solid;
+    padding: 5px;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.forecastCard {
+    border-style: solid;
+    padding: 5px;
+    width: 20%;
+}
